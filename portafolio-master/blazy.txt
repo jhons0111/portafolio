@@ -1,0 +1,3 @@
+https://github.com/zkreations/imgload.css/
+https://platzi.com/responsive-design/respuestas/hola-estoy-probando-blazy-pero-resulta-que-las-imagenes-cargan-de-una-vez-parece-que-blazy-funciona-pero-sin-el-scroll-antes-lo-hacia-bn/
+https://www.zkreations.com/2017/01/efecto-css-de-carga-para-imagenes.html

@@ -1,0 +1,275 @@
+/*Colores*/
+/*#FF9900 Naranja*/
+/*#3299BB Azul*/
+/*#E15616 Naranja*/
+/*#313131 Gris*/
+/*#E9E9E9 Gris claro*/
+
+{ }
+
+
+
+body {
+	margin: 0;
+	font-family: 'Tangerine', serif; 
+	font-size: 48px;
+}
+
+						/*header*/
+
+header {
+	height: 70px;
+	background: #313131;
+	color: #E9E9E9;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+
+}
+
+.name, .menu {
+	position: relative;
+	display: inline-block;
+	bottom: -16px; 
+	margin-left: 35px; 
+	color: #E9E9E9;   
+}
+
+.menu {
+	margin-left: 485px;
+}
+
+.parent { 
+	position: relative;
+	top: 17px;
+	width: 3.3rem;
+	height: 3.3rem;
+}
+
+.image { 
+	display: inline-block;
+}
+
+ol {
+	margin: 0;
+	display: flex;
+}
+
+.text-men, li {
+	margin-right: 1.5rem;
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.imap {
+	background: url("images/lap.png") 50% 50% no-repeat;
+	height: 75vh;
+	background-size: cover;
+	opacity: 0.9;
+    text-align: center;
+    margin-bottom: 11vw;
+    animation-name: vista-inicial;
+    animation-duration: 3s;
+}
+
+@keyframes vista-inicial {
+    from {opacity: 0;}
+    to {opacity: 1;} 
+}
+.contp {
+	height: 53vh;
+    width: 68vw;
+    position: relative;
+    left: 17%;
+    bottom: 15vh;
+}
+
+
+.title, .text {
+
+	color: black;
+	position: relative;
+	display: block;
+	font-family: 'Dosis', sans-serif;
+	top: 34vh;
+}
+
+.title {
+	font-size: 57px;
+	font-weight: 600;
+}
+
+.text {
+	font-size: 47px;
+	font-weight: 500;
+}
+
+.list { 
+	text-decoration: none !important;
+	color: #E9E9E9 !important; 
+	transition: all 130ms ease;
+} 
+
+.list:hover { 
+	color: #C6C6C6 !important;
+}
+
+.button{ 
+	background-color: #58585A;
+	color: #E9E9E9 !important;
+    position: relative;
+    top: 36vh;
+	font-size: 1.2em;
+	padding: 0.4em 0.9em;
+    border-radius: 5px;
+    border: 1px solid #545454;
+	text-decoration: none !important;
+	font-family: 'Noto Sans', sans-serif;
+	transition: all 500ms ease;
+
+}
+
+
+.button:hover {
+ background: #E9E9E9 !important;
+ color: #58585A !important;
+ border: 1px solid #3299BB;
+}
+
+				/*Cuerpo*/
+
+.banner1, .banner2 { 
+	border-radius: 5px;
+	border: 1px solid gray;
+	height: 30vh;
+	width: 70vw;
+	box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    margin: 8vh auto;
+	
+}
+
+.banner1 { 
+	background: url("img-banner/1.jpg") no-repeat center;
+
+}
+
+.banner2 { 
+	background: url("img-banner/2.jpg") no-repeat center;
+
+}
+
+
+.mess-cono { 
+	text-align: center;
+	margin: 29vh 0 20vh 0;
+}
+
+#cont { 
+	color: #022F4C;
+	font-size: 5.5rem;
+	position: relative;
+	left: 43vw;
+	bottom: 9vh;
+}
+
+#cont2 { 
+	font-size: 5.5rem;
+	color: #8C261A;
+	position: relative;
+	left: 17vw;
+	bottom: 8vh;
+}
+
+.tex-con1 { 
+	font-size: 2rem;
+	position: relative;
+	top: 15vh;
+	margin-left: 2vw;
+	color: #424242;
+}
+
+.tex-con2 { 
+	font-size: 2rem;
+	position: relative;
+	top: 3vh;
+	margin-left: 33vw;
+	color: #424242;	
+}
+
+.info { 
+	height: 80vh;
+	margin-top: 100px;
+}
+
+
+
+				/*footer*/
+
+
+footer { 
+	height: 35vh;
+	margin-top: 57.2vh;
+	background: #313131;
+	display: inline-flex;
+}
+
+i { 
+	margin: 1.3rem 2vw;
+	color: #BCBCBC;
+	font-size: 2em !important;
+}
+
+#icon { 
+	margin-left: 0; 
+}
+
+.foot-link {
+	display: inline-block; 
+}
+
+.titulo { 
+	color: #E15616;
+	font-size: 1.2em;
+}
+
+p { 
+	color: #E9E9E9;
+	margin-bottom: 0.7vh !important;
+}
+
+.foot-link { 
+	margin: 2vh 3vw;
+}
+
+.foo-cont { 
+	display: inline-flex;
+}
+
+
+
+.anime { 
+	width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red; 
+}
+
+.hptt{
+	width: 1000px;
+	height: 1000px;
+	background-color: red;
+}
+{ }
+{ }
+{ }
+{ } ########
+
+
+/*	Boton de formulario
+	http://blog.hostdime.com.co/5-sencillos-efectos-hover-para-botones/*/
+
+
+
+					/*rediseño*/ 
+
