@@ -67,24 +67,45 @@ ol {
 	height: 75vh;
 	background-size: cover;
 	opacity: 0.9;
-    text-align: center;
     margin-bottom: 11vw;
     animation-name: vista-inicial;
     animation-duration: 3s;
+    -webkit-animation-name: vista-inicial;
+    -webkit-animation-duration: 3s;
+}
+
+@-webkit-keyframes vista-inicial {
+    from {opacity: 0;}
+    to {opacity: 0.9;} 
 }
 
 @keyframes vista-inicial {
     from {opacity: 0;}
-    to {opacity: 1;} 
+    to {opacity: 0.9;} 
 }
+
 .contp {
 	height: 53vh;
     width: 68vw;
-    position: relative;
+    position: absolute;
     left: 17%;
-    bottom: 15vh;
+    bottom: 55vh;
+    text-align: center;
+    -webkit-animation-name: ani;
+    -webkit-animation-duration: 1.6s;
+    animation-name: ani;
+    animation-duration: 1.6s;
 }
 
+@-webkit-keyframes ani {
+    from {bottom: 50vh;}
+    to {bottom: 55vh;} 
+}
+
+@keyframes ani {
+    from {bottom: 50vh;}
+    to {bottom: 55vh;} 
+}
 
 .title, .text {
 
@@ -253,6 +274,14 @@ p {
     height: 100px;
     position: relative;
     background-color: red; 
+    animation-name: tran;
+    animation-duration: 5s;
+    left: 200px;
+}
+
+@keyframes tran {
+    from {opacity: 0; left: 0;}
+    to {opacity: 1; left: 200px;} 
 }
 
 .hptt{
